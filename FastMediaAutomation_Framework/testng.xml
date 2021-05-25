@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.qa.FastMediaTest.HomePageTest">
+				<methods>
+					<exclude name="ContectusOpenAndTitleTest"></exclude>
+					<exclude name="HomePageImgVlaidateTest"></exclude>
+					<exclude name="BagsAndCasesImageTest"></exclude>
+					<exclude name="ShopByBrandTitleCheck"></exclude>
+				</methods>
+			</class>
+
+			<class name="com.qa.FastMediaTest.LoginPageTest" />
+			<class name="com.qa.FastMediaTest.ProductPageTest" />
+			<class name="com.qa.FastMediaTest.ContectUsPageTest" />
+			<class name="com.qa.FastMediaTest.RegistrationPageTest" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
